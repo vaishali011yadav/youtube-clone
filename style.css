@@ -1,0 +1,87 @@
+*{
+    background-color: black;
+}
+h1{
+    color: brown;
+}
+h2{
+    color: brown;
+}
+li{
+    color: aliceblue;
+}
+.sidebar {
+    position: absolute;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+    /* position: absolute; */
+    /* margin-top: 5px; */
+}
+.SIDE>ul{
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SIDE>ul>li{
+    /* margin: 5px; */
+    margin-top: 5px;
+}
+.Subscription{
+  
+    margin-top: 50x;
+}
+#DOWN>ul{
+    list-style: none;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+#DOWN>ul>li{
+    margin: 5px;
+}
+.Last>ul{
+    flex-direction: column;
+}
+.Last>ul>li{
+    margin: 5px;
+    margin-top: 5px;
+}
+.videos>div {
+    width:200px;
+    display: :flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color:white;
+}
+.videos>p {
+    line-break:auto;
+    
+}
+.videos{
+    width:70%;
+    margin-right:0px !important;
+    position:relative;
+    left:250px;
+    display: flex;
+    gap:4rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    /* justify-content: start;*/
+}
+.nabar>ul>li.order{
+    margin-top: 5px;
+    /* order: 1;
+    color:blueviolet; */
+    
+}
+
+
+
