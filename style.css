@@ -8,7 +8,7 @@ h2{
     color: brown;
 }
 li{
-    color: aliceblue;
+    color: wheat;
 }
 .sidebar {
     position: absolute;
@@ -87,7 +87,19 @@ img{
 }
 .Setting{
     border-radius: 50%;
+    margin-left: 650px;
 }
-
+.searchbox{
+    margin-left: 150px;
+}
+/* br{
+    color: antiquewhite;
+} */
+span{
+    width: max-content;
+    color: beige;
+    /* width:400px ; */
+    /* height: 400px; */
+}
 
 
