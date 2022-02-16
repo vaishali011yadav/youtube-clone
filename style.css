@@ -68,7 +68,7 @@ ul{
     position:relative;
     left:250px;
     display: flex;
-    gap:4rem;
+    gap:10rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
