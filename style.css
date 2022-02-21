@@ -10,8 +10,23 @@ h2{
 li{
     color: wheat;
 }
+body{
+    max-width:100vw;
+   max-height:100vh;
+   overflow:hidden
+   
+}
 .sidebar {
     position: absolute;
+    /* margin-bottom: 70px; */
+    top: 0px;
+   overflow-y:scroll;
+   width:20%;
+   height:100vh;
+
+}
+.sidebar::-webkit-scrollbar {
+    display:none;             //this property is used to hide scroll bar
 }
 ul{
     display: flex;
@@ -30,9 +45,13 @@ ul{
 .SIDE>ul>li{
     /* margin: 5px; */
     margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
 }
+
 .Subscription{
-  
+    justify-content: flex-start;
+    display: flex;
     margin-top: 50x;
 }
 #DOWN>ul{
@@ -49,14 +68,17 @@ ul{
 .Last>ul>li{
     margin: 5px;
     margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50x;
 }
 .videos>div {
     width:200px;
-    display: :flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+   
     color:white;
 }
 .videos>p {
@@ -64,12 +86,14 @@ ul{
     
 }
 .videos{
+    overflow-y: scroll;
+    height: 600px;
     width:70%;
     margin-right:0px !important;
     position:relative;
-    left:250px;
+    left:450px;
     display: flex;
-    gap:10rem;
+    gap:6rem;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -115,4 +139,25 @@ li {
 }
 .sub-bar{
     overflow: scroll;
+    display: flex;
+    margin-left: 400px;
 }
+.sub-bar::-webkit-scrollbar {
+    display:none;
+
+}
+#DOWN>ul>li{
+    margin-right: 250px;
+
+}
+.Last>ul>li{
+    margin-right:250px ;
+}
+.navbar{
+    margin-bottom: 8.5px;
+    margin-left: 200px;
+}
+/* #left{
+    overflow: scroll;
+    */
+/* } */
